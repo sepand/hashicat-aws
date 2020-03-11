@@ -1,8 +1,8 @@
-resource "aws_vpc_sepand" "main" {
+resource "aws_vpc" "main_1" {
   cidr_block = "10.0.0.0/16"
 }
 
-resource "aws_vpc" "main" {
+resource "aws_vpc" "main_1" {
   cidr_block       = "10.0.0.0/16"
   instance_tenancy = "dedicated"
 
